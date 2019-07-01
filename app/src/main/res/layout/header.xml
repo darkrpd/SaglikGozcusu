@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="10dp">
+
+    <ImageView
+        android:id="@+id/img_first"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:src="@drawable/chemical_diagram"
+        />
+
+    <!--android:src="@drawable/tree6464"
+    android:layout_alignParentLeft="true"-->
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Maddeler"
+        android:paddingLeft="10dp"
+        android:paddingStart="10dp"
+        android:textSize="@dimen/abc_text_size_medium_material"
+        android:layout_gravity="center"
+        android:textColor="#ff8000"
+        android:textStyle="bold"/>
+
+
+</LinearLayout>
+
+
+
+
+
+

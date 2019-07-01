@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">Sağlık Gözcüsü</string>
+    <string name="action_settings">Ayarlar</string>
+
+    <string name="menu_settings">Ayarlar</string>
+    <string name="fromCamera">Kamera</string>
+    <string name="fromFile">Dosyalarım</string>
+    <string name="title_activity_results">Sonuçlar</string>
+    <string name="hello">hello</string>
+
+    <string-array name="nav_drawer_items_small">
+        <item >Arapça</item>
+        <item >Çince</item>
+        <item>Danimarka Dili</item>
+        <item >Hollanda Dili</item>
+        <item >Fransızca</item>
+        <item >Almanca</item>
+        <item >İtalyanca</item>
+        <item >Portekizce</item>
+        <item >Rusça</item>
+        <item >İspanyolca</item>
+    </string-array>
+
+    <array name="nav_drawer_icons">
+        <item>@drawable/dot</item>
+        <item>@drawable/dot</item>
+        <item>@drawable/dot</item>
+        <item>@drawable/dot</item>
+        <item>@drawable/dot</item>
+        <item>@drawable/dot</item>
+        <item>@drawable/dot</item>
+        <item>@drawable/dot</item>
+        <item>@drawable/dot</item>
+        <item>@drawable/dot</item>
+
+    </array>
+</resources>

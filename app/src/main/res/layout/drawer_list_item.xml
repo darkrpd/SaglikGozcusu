@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:materialdesign="http://schemas.android.com/apk/res-auto"
+    android:minHeight="50dp"
+    android:orientation="horizontal"
+    android:background="@android:color/white">
+
+    <com.rey.material.widget.CheckBox
+        android:id="@+id/check"
+        android:layout_alignParentStart="true"
+        materialdesign:paddingStart="10dp"
+        android:layout_centerVertical="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        style="@style/materialCheckBoxStyle"
+        android:layout_alignParentLeft="true" />
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_toRightOf="@id/check"
+        android:layout_toEndOf="@id/check"
+        android:minHeight="20dp"
+        android:layout_marginStart="10dp"
+        android:layout_centerVertical="true"
+        android:textColor="#23b4f5"
+        android:gravity="center_vertical"
+        android:textSize="@dimen/abc_text_size_medium_material"
+        android:layout_marginLeft="10dp" />
+
+
+
+
+
+
+
+
+
+</RelativeLayout>
